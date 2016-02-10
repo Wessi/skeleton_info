@@ -1,0 +1,19 @@
+string user_id
+
+geometry_msgs/Transform head
+geometry_msgs/Transform neck
+geometry_msgs/Transform torso
+
+geometry_msgs/Transform right_elbow
+geometry_msgs/Transform right_foot
+geometry_msgs/Transform right_hand
+geometry_msgs/Transform right_hip
+geometry_msgs/Transform right_knee
+geometry_msgs/Transform right_shoulder
+
+geometry_msgs/Transform left_elbow
+geometry_msgs/Transform left_foot
+geometry_msgs/Transform left_hand
+geometry_msgs/Transform left_hip
+geometry_msgs/Transform left_knee
+geometry_msgs/Transform left_shoulder
