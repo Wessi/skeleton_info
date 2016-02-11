@@ -23,26 +23,6 @@ To build skeleton_info as ros package, perform the following steps at the shell 
 ## Run
 --- First start the skeleton_tracker as descrebed in the link above and then execute the following command in the terminal.
 ```
-rosrun skeleton_info user_bundler.py    #For bundling users
-rosrun skeleton_info tf_bundler.py      #For bundling each user's transforms
+rosrun skeleton_info users.py    #For bundling users
+rosrun skeleton_info users_tf_info.py      #For bundling each user's transforms
 ```
-
-ROS Nodes
----------
-#### /user_bundler
-
-###### Publications: 
- * /users_bundle [icog_tf/users]
- 
-###### Subscriptions: 
- * /tf [tf2_msgs/TFMessage]
- 
-#### /tf_bundler
-
-###### Publications: 
- * /tf_bundles [icog_tf/tfBundles]
- 
-###### Subscriptions: 
- * /tf [tf2_msgs/TFMessage]
- 
- 
