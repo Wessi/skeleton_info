@@ -68,7 +68,7 @@ def callback(data):
 		if (timestamp - bundle.timestamp > 3):
 			del current_bundles[user]
 
-	# Publish to /tf_bundles
+	# Publish to /skeleton_info_topic
 	tf_bundles_msg = tfBundles()
 	tf_bundles_msg.tf_bundles = []
 	for user, bundle in current_bundles.items():
